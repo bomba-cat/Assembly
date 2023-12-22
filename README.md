@@ -5,3 +5,5 @@ All my assembly code i made to learn assembly
 - .text where your code goes
 - .bss where you reserve memory
 - .data where you store data
+
+- the compiler will start to execute the _start label first before anything else
