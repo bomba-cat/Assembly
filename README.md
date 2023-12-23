@@ -17,3 +17,11 @@ then we take the object file and using the built in linux linker we make an exec
 
 now we can execute our executable
 - ./{filenae}
+
+# Nasm Macros
+Its important to note that for every compiler, the macros are made differently.
+In nasm we do it like this:
+%macro {macroname} {argsc}
+  -- the macro itself
+  -- arguments are called using %1, %2 etc.
+%endmacro
