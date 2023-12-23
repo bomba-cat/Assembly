@@ -41,7 +41,7 @@ when doing a label inside a macro its recommended to do a local label like this
 when not doing a local label and calling a macro twice the compiler will try to create two label with the same name and give out a redifined name error.
 
 # Include
-With assembly it is possible to split your code into multiple files. Using %include {filename}.asm it is possible to run the code inside the included file into the position of your code.
+With assembly it is possible to split your code into multiple files. Using %include "{filename}.asm" (IMPORTANT DONT FORGET THE QUOTATION MARK) it is possible to run the code inside the included file into the position of your code.
 Basically when you move all your macros inside another file you can include your macros right after "section .text" and it will run whatever is in that include file. What the compiler
 will basically do is take whatever code is inside that file and insert it into the %include position where you included the other file. This allows you to make a label in another file which you
 know you are going to use frequently across multiple files and just include whatever is inside that file.
