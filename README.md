@@ -1,4 +1,4 @@
-# Assembly
+# Assembly x86_64
 All my assembly code i made to learn assembly
 
 # Important things to assembly
