@@ -25,3 +25,10 @@ In nasm we do it like this:
   -- the macro itself
   -- arguments are called using %1, %2 etc.
 %endmacro
+
+when doing a label inside a macro its recommended to do a local label like this
+%macro {macroname} {argsc}
+  -- %%label
+  --  whatever code
+%endmacro
+when not doing a local label and calling a macro twice the compiler will try to create two label with the same name and give out a redifined name error.
