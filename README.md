@@ -10,13 +10,13 @@ All my assembly code i made to learn assembly
 
 # How to compile assembly?
 we take the .asm file and make an object file out of it using nasm
-- nasm -o elf64 -o {filenae}.asm {filenae}.o
+- nasm -o elf64 -o {filename}.asm {filename}.o
 
 then we take the object file and using the built in linux linker we make an executable
-- ld {filenae}.o -o {filenae}
+- ld {filename}.o -o {filename}
 
 now we can execute our executable
-- ./{filenae}
+- ./{filename}
 
 # Nasm Macros
 Its important to note that for every compiler, the macros are made differently.
