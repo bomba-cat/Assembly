@@ -15,7 +15,7 @@ All my assembly code i made to learn assembly
 
 - the compiler will start to execute the _start label first before anything else
 
-# How to compile assembly?
+# How to compile assembly using nasm?
 we take the .asm file and make an object file out of it using nasm
 - nasm -o elf64 -o {filename}.asm {filename}.o
 
