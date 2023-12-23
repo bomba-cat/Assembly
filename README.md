@@ -1,3 +1,10 @@
+# Important
+Everything here was done on linux and is meant for linux and only works with x86_64 Processors and nothing else. 
+The compiler i used was nasm and code will differ from: 
+- Compiler to Compiler 
+- Processor to Processor
+- Os to Os.
+
 # Assembly x86_64
 All my assembly code i made to learn assembly
 
