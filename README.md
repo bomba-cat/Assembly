@@ -46,6 +46,9 @@ Basically when you move all your macros inside another file you can include your
 will basically do is take whatever code is inside that file and insert it into the %include position where you included the other file. This allows you to make a label in another file which you
 know you are going to use frequently across multiple files and just include whatever is inside that file.
 
+- https://pastebin.com/N1ZdmhLw
+- a file containing a print, exit macro and all the syscalls id
+
 # Syscall Table x86_64
 
 | **%rax** | **System call** | **%rdi** | **%rsi** | **%rdx** | **%r10** | **%r8**| **%r9**|
