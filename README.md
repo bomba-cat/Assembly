@@ -17,7 +17,7 @@ All my assembly code i made to learn assembly
 
 # How to compile assembly using nasm?
 we take the .asm file and make an object file out of it using nasm
-- nasm -o elf64 -o {filename}.asm {filename}.o
+- nasm -f elf64 -o {filename}.asm {filename}.o
 
 then we take the object file and using the built in linux linker we make an executable
 - ld {filename}.o -o {filename}
